@@ -26,3 +26,6 @@ gen-external-apklibs
 # Gradle
 .gradle
 build
+
+# Kiip
+libprojects/KiipSDK

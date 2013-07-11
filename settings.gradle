@@ -1,0 +1,4 @@
+include ':libprojects:BaseKiipUtils', ':libprojects:KiipSDK'
+
+include ':SimpleSample'
+include ':CustomSample'
