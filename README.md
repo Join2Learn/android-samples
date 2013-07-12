@@ -38,7 +38,17 @@ Notification types:
 1. Modify the `APP_KEY` and `APP_SECRET` in the project's `Application` class to your credentials, as given by the Developer Console.
 1. Compile and run
 
-To get Kiip working in your app, you can start by adding `BaseKiipUtils` and `KiipSDK` library projects to your Android project.
+
+### Add Kiip to an existing project
+
+1. Create `libprojects` directory in your project
+1. Copy `libprojects/BaseKiipUtils` and `KiipSDK` to `libprojects/`
+1. Add `BaseKiipUtils` and `KiipSDK` as dependencies to your project:
+
+	dependencies {
+	    compile project(':libprojects:BaseKiipUtils')
+	    compile project(':libprojects:KiipSDK')
+	}
 
 
 ## Support
